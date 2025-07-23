@@ -88,3 +88,36 @@ nav a{
 .join-input button{
     margin: 0;
 }
+
+/* footer section */
+footer{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    column-gap: 80px;
+    margin: 50px 150px;
+}
+.footer-content p{
+    font-size: 22px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #6B7280;
+    white-space: nowrap;
+}
+.social-links div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
